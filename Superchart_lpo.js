@@ -1,4 +1,5 @@
-document.getElementsByTagName('p')[5].insertAdjacentHTML("beforebegin",'<a href="https://demo-hk.trade.z.com/join/pcweb/account?locale=zh_TW" target="_blank" class="btn-style-navy btn-dl:before" style="margin: auto auto 20px auto;background-color: #C50008; font-size: 14px; font-weight: bold; line-height: 40px; width: 440px; height: 40px;" onmouseover="join_btn_over(this)" onmouseout="join_btn_out(this)">馬上申請模擬帳戶，體驗superchart</a>')
+	//------join_btn---//
+	document.getElementsByTagName('p')[5].insertAdjacentHTML("beforebegin",'<a href="https://demo-hk.trade.z.com/join/pcweb/account?locale=zh_TW" target="_blank" class="btn-style-navy btn-dl:before" style="margin: auto auto 20px auto;background-color: #C50008; font-size: 14px; font-weight: bold; line-height: 40px; width: 440px; height: 40px;" onmouseover="join_btn_over(this)" onmouseout="join_btn_out(this)">馬上申請模擬帳戶，體驗superchart</a>')
 	function join_btn_over(x) {
 		x.style.backgroundColor = "#d2383e";
 	}
@@ -7,7 +8,7 @@ document.getElementsByTagName('p')[5].insertAdjacentHTML("beforebegin",'<a href=
 	}
 	//-----top_image---//
 	var changebg = document.getElementsByClassName("bg-img");
-    changebg[0].style.backgroundImage = "url(http://www.nd-studio.com/zcom/img_05_renew.jpg)";
+   	 changebg[0].style.backgroundImage = "url(http://www.nd-studio.com/zcom/img_05_renew.jpg)";
 	//--------top image description---//
 	var txt = document.getElementsByClassName("txt");
 		txt[0].style.width="280px";
@@ -52,4 +53,4 @@ document.getElementsByTagName('p')[5].insertAdjacentHTML("beforebegin",'<a href=
 		}
 	//--------delete h2 title---//
 	for (var i = 5 -1; i >= 0; i--)
-   document.getElementsByTagName("h2")[i].remove();
+   	document.getElementsByTagName("h2")[i].remove();
