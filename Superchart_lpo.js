@@ -1,10 +1,10 @@
 //------join_btn---//
-	document.getElementsByTagName('p')[5].insertAdjacentHTML("beforebegin",'<a href="https://demo-hk.trade.z.com/join/pcweb/account?locale=zh_TW" target="_blank" class="btn-style-navy btn-dl:before" style="margin: auto auto 20px auto;background-color: #C50008; font-size: 14px; font-weight: bold; line-height: 40px; width: 440px; height: 40px;" onmouseover="join_btn_over(this)" onmouseout="join_btn_out(this)">馬上申請模擬帳戶，體驗superchart</a>')
+	document.getElementsByTagName('p')[5].insertAdjacentHTML("beforebegin",'<a href="https://demo-hk.trade.z.com/join/pcweb/account?locale=zh_TW" target="_blank" class="btn-style-navy btn-dl:before" style="margin: auto auto 20px auto;background-color: #F88900; font-size: 14px; font-weight: bold; line-height: 40px; width: 440px; height: 40px;" onmouseover="join_btn_over(this)" onmouseout="join_btn_out(this)">馬上申請模擬帳戶，體驗superchart</a>')
 	function join_btn_over(x) {
-		x.style.backgroundColor = "#d2383e";
+		x.style.backgroundColor = "#faa43a";
 	}
 	function join_btn_out(x) {
-		x.style.backgroundColor = "#C50008";
+		x.style.backgroundColor = "#F88900";
 	}
 //-----top_image---//
 	var changebg = document.getElementsByClassName("bg-img");
